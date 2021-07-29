@@ -1,0 +1,22 @@
+{
+  "name": "typescript-threejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thodges314/typescript-threejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thodges314/typescript-threejs/issues"
+  },
+  "homepage": "https://github.com/thodges314/typescript-threejs#readme",
+  "devDependencies": {
+    "three": "^0.130.1"
+  }
+}

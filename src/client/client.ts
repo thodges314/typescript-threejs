@@ -49,15 +49,16 @@ cubeRotationFolder.add(cube.rotation, "y", 0, Math.PI * 2);
 cubeRotationFolder.add(cube.rotation, "z", 0, Math.PI * 2);
 cubeRotationFolder.open();
 const cubePositionFolder = cubeFolder.addFolder("Position");
-cubePositionFolder.add(cube.position, "x", -10, 10);
-cubePositionFolder.add(cube.position, "y", -10, 10);
-cubePositionFolder.add(cube.position, "z", -10, 10);
+cubePositionFolder.add(cube.position, "x", -10, 10, 0.1);
+cubePositionFolder.add(cube.position, "y", -10, 10, 0.1);
+cubePositionFolder.add(cube.position, "z", -10, 10, 0.1);
 cubePositionFolder.open();
 const cubeScaleFolder = cubeFolder.addFolder("Scale");
-cubeScaleFolder.add(cube.scale, "x", 0, 5);
-cubeScaleFolder.add(cube.scale, "y", 0, 5);
-cubeScaleFolder.add(cube.scale, "z", 0, 5);
+cubeScaleFolder.add(cube.scale, "x", 0, 5, 0.1);
+cubeScaleFolder.add(cube.scale, "y", 0, 5, 0.1);
+cubeScaleFolder.add(cube.scale, "z", 0, 5, 0.1);
 cubeScaleFolder.open();
+cubeFolder.add(cube, "visible");
 
 cubeFolder.open();
 
